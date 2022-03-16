@@ -5,7 +5,7 @@ Home: https://kcuilla.github.io/reactablefmtr/, https://github.com/kcuilla/react
 
 Package license: MIT
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-reactablefmtr-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-reactablefmtr-feedstock/blob/main/LICENSE.txt)
 
 Summary: Enhance the styling of interactive reactable tables with easy-to-use and highly-customizable functions. Apply conditional formatting to cells with data bars, color scales, and icon sets. Utilize custom table themes inspired by popular websites and bootstrap themes. Increase the portability and reproducibility of reactable tables by embedding images from the web directly into cells. Save the final table output as a static image or interactive file (note this feature requires the 'webshot2' package which can be downloaded from <https://github.com/rstudio/webshot2>).
 
@@ -15,8 +15,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=14339&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-reactablefmtr-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=14339&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-reactablefmtr-feedstock?branchName=main">
       </a>
     </td>
   </tr>
@@ -55,7 +55,8 @@ conda search r-reactablefmtr --channel conda-forge
 About conda-forge
 =================
 
-[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
+[![Powered by
+NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](https://numfocus.org)
 
 conda-forge is a community-led conda channel of installable packages.
 In order to provide high-quality builds, the process has been automated into the
