@@ -28,18 +28,28 @@ requirements:
     - r-base
     - r-dplyr
     - r-htmltools
-    - r-htmlwidgets
+    - r-htmlwidgets >=1.5.3
+    - r-magrittr
+    - r-purrr
     - r-reactable >=0.2.0
+    - r-sass >=0.4.0
     - r-shiny
-    - r-stringr
+    - r-stringr >=1.4.0
+    - r-tippy >=0.1.0
+    - r-webshot
   run:
     - r-base
     - r-dplyr
     - r-htmltools
-    - r-htmlwidgets
+    - r-htmlwidgets >=1.5.3
+    - r-magrittr
+    - r-purrr
     - r-reactable >=0.2.0
+    - r-sass >=0.4.0
     - r-shiny
-    - r-stringr
+    - r-stringr >=1.4.0
+    - r-tippy >=0.1.0
+    - r-webshot
 
 test:
   commands:
