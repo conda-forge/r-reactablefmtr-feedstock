@@ -1,6 +1,5 @@
 {% set version = "2.0.0" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-reactablefmtr
@@ -13,8 +12,7 @@ source:
   sha256: 24ddff264ae3e0cb902c53b87a629eb9d3e1e06cb070fa9cd04a0755912406e5
 
 build:
-  merge_build_host: true  # [win]
-  number: 2
+  number: 3
   noarch: generic
   rpaths:
     - lib/R/lib/
